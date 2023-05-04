@@ -25,8 +25,6 @@ lock =  threading.Lock()
 queue =  Queue()  
 
 
-
-
 def using_ocr_test(img_path): 
     image  =  cv2.imread(img_path)
     # ocr = PaddleOCR(lang="en")  
@@ -39,11 +37,7 @@ def using_ocr_test(img_path):
 
     except :  
         return ; 
-def using_PaddleOCR(img_path)  :   pass 
-
     
-
-
 def using_Padd_OCR(ocr ,  img_paths ) :  
 
     boxes = None
